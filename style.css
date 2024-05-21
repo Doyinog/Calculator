@@ -1,0 +1,98 @@
+body{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container{
+    width: 1000px;
+    height: 550px;
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.9)), url(small_parrot2.jpg);
+    background-size: cover;
+    margin: 20px auto;
+    border-radius: 25px;
+}
+
+#calculator{
+    width: 320px;
+    height: 520px;
+    background-color: #f7f8f999;
+    margin: 20px auto;
+    top: 20px;
+    position: relative;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6), 0 6px 20 px 0 rgba(0, 0, 0,0.6);
+}
+
+#result{
+    height: 120px;
+}
+
+#keyboard{
+    height: 400px;
+}
+#history{
+    height: 20px;
+    text-align: right;
+    margin: 0 20px;
+    padding-top: 20px;
+    font-size: 15px;
+    color: #616161;
+}
+
+#output{
+    text-align: right;
+    height: 60px;
+    margin: 10px 20px;
+    font-size: 30px;
+}
+
+.operator, .number, .empty{
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 100%;
+    border: 0;
+}
+.number, .empty{
+    background-color: #f7f8f900;
+}
+
+.operator, .number{
+    cursor: pointer;
+}
+.operator:focus, .number:focus, .empty:focus{
+    outline: 0;
+} 
+.operator:active, .number:active{
+    font-size: 12px;
+}
+button:nth-child(4){
+    font-size: 20px;
+    background-color: #331;
+    color: #fff;
+
+}
+button:nth-child(8){
+    font-size: 20px;
+    background-color: #332;
+    color: #fff;
+    
+}
+button:nth-child(12){
+    font-size: 20px;
+    background-color: #333;
+    color: #fff;
+    
+}
+button:nth-child(16){
+    font-size: 20px;
+    background-color: #334;
+    color: #fff;
+    
+}
+button:nth-child(20){
+    font-size: 20px;
+    background-color:#335 ;
+    color: #fff;
+}
